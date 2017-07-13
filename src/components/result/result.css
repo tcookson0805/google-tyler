@@ -1,0 +1,10 @@
+.Result {
+
+}
+
+.Result > header {
+	background-color: #FAFAFA;
+	height: 122px;
+	display: flex;
+	flex-direction: column;
+}

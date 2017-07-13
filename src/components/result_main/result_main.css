@@ -1,0 +1,136 @@
+
+.ResultMain {
+	width: 632px;
+	margin-left: 150px;
+	padding: 16px;
+}
+
+.result-stats {
+	text-align: left;
+}
+
+.images-container {
+	text-align: left;
+}
+
+.images-box {
+	display: flex;
+	list-style: none;
+}
+
+.images-box {
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.images-box img {
+	height: 100px;
+}
+
+.images-sub {
+	display: flex;
+	justify-content: space-between;
+}
+
+.more-images {
+	display: flex;
+}
+
+.more-images * {
+	align-self: center;
+	color: #1A0DAB;
+}
+
+.reportImaes {
+	color: #777777;
+}
+
+/*///////*/
+
+.results-container {
+	margin-top: 50px;
+	text-align: left;
+}
+
+.results-container a {
+	color: #1a0dab;
+}
+
+.result-item {
+	margin-bottom: 26px;
+}
+
+.result-item * {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.result-item-url {
+	color: #0C6D2B;
+}
+
+.result-item-location {
+	color: #818181;
+}
+
+.result-item-description {
+	color: #545454
+}
+
+/* ////  */
+
+.more-results-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.more-results-image {
+	height: 40px;
+	margin: 0 auto;
+}
+
+.more-results-links {
+	width: 300px;
+	border: 0.1em solid red;
+	margin: 0 0 0 180px;
+	color: #4285f4;
+}
+
+.more-results-links span {
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+}
+
+.more-results-next {
+	float: right;
+}
+
+
+/* //// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.ResultsFooter {
+	height: 122px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	color: #222222;
+	position: static;
+	display: flex;
+	justify-content: space-between;
+}
+
+.results-footer-container {
+	border: 0.1em solid red;
+	width: 632px;
+	margin-left: 150px;
+	padding: 16px;
+	text-align: left;
+	display: flex;
+}
+
+.results-footer-options span {
+	display: inline-block;
+	margin-right: 27px;
+	color: #777777;
+	line-height: 40px;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: small;
+}
+
+.results-footer-options span:hover {
+	color: #333333;
+}
+
+
+
