@@ -12,8 +12,10 @@ import layla1 from '../../img/layla1.jpg';
 import layla2 from '../../img/layla2.jpg';
 import layla_beach from '../../img/layla_beach.jpg';
 
+import resume from '../../img/TylerCookson_Resume.jpg';
 
-const images = [crash_layla1, layla_beach, crash1, layla1, crash_layla2, crash2, layla2];
+
+const images = [resume, crash_layla1, layla_beach, crash1, layla1, crash_layla2, crash2, layla2];
 
 
 class MoreImages extends Component {

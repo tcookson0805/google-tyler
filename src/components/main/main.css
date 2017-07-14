@@ -102,31 +102,6 @@ input:focus {
 
 	box-shadow: none;
 
-
-/*	background-color: #f8f8f8;
-	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
-
-	border: 1px solid #c6c6c6;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	color: #222;
-
-	height: 36px;
-	line-height: 27px;
-
-	cursor: default;
-	font-family: arial,sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-	margin: 11px 4px;
-	min-width: 54px;
-	padding: 0 16px;
-	text-align: center;
-
-	color: #757575;
-	font-size: 13px;
-	font-weight: bold;
-	text-transform: none;
-	margin-top: 18px;*/
 }
 
 .search-button:focus {
@@ -145,7 +120,7 @@ input:focus {
 
 .main-footer-left {
 	float: left;
-	margin: 0px 15px;
+	margin: 0px 25px;
 }
 
 .main-footer-right {

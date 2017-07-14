@@ -97,9 +97,9 @@ class Main extends React.Component {
 					<div className="main-footer-left">Advertising</div>
 					<div className="main-footer-left">Business</div>
 					<div className="main-footer-left">About</div>
-					<div className="main-footer-right">Privacy</div>
+					<div className="main-footer-right">Setting</div>
 					<div className="main-footer-right">Terms</div>
-					<div className="main-footer-right">Settings</div>
+					<div className="main-footer-right">Privacy</div>
 				</footer>
 			</div>
 		)

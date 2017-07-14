@@ -11,6 +11,9 @@
     "muicss": "^0.9.17",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-iframe": "^1.0.7",
+    "react-pdf": "^1.8.1",
+    "react-pdf-js": "^1.0.35",
     "react-router-dom": "^4.1.1"
   },
   "scripts": {

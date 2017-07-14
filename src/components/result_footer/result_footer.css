@@ -1,10 +1,11 @@
 .ResultsFooter {
-	height: 122px;
+	height: 80px;
 	background: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
 	line-height: 40px;
 	color: #222222;
-	position: static;
+	position: absolute;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
