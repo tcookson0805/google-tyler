@@ -92,6 +92,14 @@
 .header-bottom {
 	display: flex;
 	margin-top: 20px;
+	color: #777777;
+}
+
+.header-link-selected {
+	color: #4285F4;
+	font-weight: bold;
+	border-bottom: 0.2em solid #4285F4;
+	height: 35px;
 }
 
 .header-links-left {

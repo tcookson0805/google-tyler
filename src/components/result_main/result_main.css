@@ -9,8 +9,9 @@
 	text-align: left;
 }
 
-.images-container {
+.images-container * {
 	text-align: left;
+	color: #1A0DAB;
 }
 
 .images-box {
@@ -34,16 +35,8 @@
 	justify-content: space-between;
 }
 
-.more-images {
-	display: flex;
-}
 
-.more-images * {
-	align-self: center;
-	color: #1A0DAB;
-}
-
-.reportImaes {
+.reportImages {
 	color: #777777;
 }
 
@@ -66,6 +59,12 @@
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
+}
+
+.result-item-header {
+	font-size: 20px;
+	line-height: 18px;
+	font-family: 'Roboto',arial,sans-serif;
 }
 
 .result-item-url {

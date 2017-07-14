@@ -17,10 +17,15 @@ class ResultHeader extends React.Component {
 
 	whoaThere() {
 		if(window.confirm("Yeahhhh.....that's not gonna work. " + 
-			"But if you do actually want to leave the page to do a Google Search," + 
-			"click OK below...otherwise click Cancel and continue checking out my page")) {
+			"If you actually want to leave the page to do a Google Search," + 
+			"click OK below...otherwise click Cancel")) {
 			window.location.href='https://www.google.com'
 		}
+	}
+
+	selected() {
+		console.log(this)
+		console.log('selected');
 	}
 
 	render() {
@@ -50,12 +55,12 @@ class ResultHeader extends React.Component {
 
 				<div className="header-bottom">
 					<div className="header-links-left">
-						<div>All</div>
-						<div>Images</div>
-						<div>News</div>
-						<div>Videos</div>
-						<div>Shopping</div>
-						<div>More</div>
+						<div className="header-link-selected">All</div>
+						<div onClick={this.selected}>Images</div>
+						<div onClick={this.selected}>News</div>
+						<div onClick={this.selected}>Videos</div>
+						<div onClick={this.selected}>Shopping</div>
+						<div onClick={this.selected}>More</div>
 					</div>
 					<div className="header-links-right">
 						<div>Settings</div>

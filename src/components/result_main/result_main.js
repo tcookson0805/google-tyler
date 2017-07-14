@@ -2,6 +2,8 @@ import React from 'react';
 
 import './result_main.css';
 
+import MoreImages from '../more_images/more_images.js';
+
 import pic1 from '../../img/ty_profile_pic2.jpg';
 import pic2 from '../../img/ty_molly_beach.jpg';
 import pic3 from '../../img/crash_layla.jpg';
@@ -21,7 +23,7 @@ const ResultMain = () => {
 			</div>
 
 			<div className="images-container">
-				<h3>Images for Tyler Cookson</h3>
+				<h3><a href="">Images for Tyler Cookson</a></h3>
 				<ul className="images-box">
 					<li>
 						<img src={pic1} alt=""/>
@@ -40,12 +42,7 @@ const ResultMain = () => {
 					</li>
 				</ul>
 				<div className="images-sub">
-					<div className="more-images">
-						<i className="material-icons">arrow_forward</i>
-						<div>
-							More images for Tyler Cookson
-						</div>
-					</div>
+					<MoreImages />
 					<div className="reportImages">
 						Report Images
 					</div>
@@ -55,7 +52,7 @@ const ResultMain = () => {
 			<div className="results-container">
 
 				<div className="result-item">
-					<h3><a href="http://www.tylercookson.com">Tyler Cookson</a></h3>
+					<h3 className="result-item-header"><a href="http://www.tylercookson.com">Tyler Cookson</a></h3>
 					<p className="result-item-url">www.tylercookson.com/</p>
 					<p className="result-item-description">
 						I am a software engineer who strives to write clean, maintainable 
@@ -65,7 +62,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://www.linkedin.com/in/tylercookson">Tyler Cookson | LinkedIn</a></h3>
+					<h3 className="result-item-header"><a href="https://www.linkedin.com/in/tylercookson">Tyler Cookson | LinkedIn</a></h3>
 					<p className="result-item-url">https://www.linkedin.com/in/tylercookson</p>
 					<p className="result-item-location">San Francisco, California - ‎Software Engineer</p>
 					<p className="result-item-description">
@@ -76,7 +73,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://github.com/tcookson0805">tcookson0805 (Tyler Cookson) Github</a></h3>
+					<h3 className="result-item-header"><a href="https://github.com/tcookson0805">tcookson0805 (Tyler Cookson) Github</a></h3>
 					<p className="result-item-url">https://github.com/tcookson0805</p>
 					<p className="result-item-description">
 						tcookson0805 has 42 repositories available. Follow their code on GitHub.
@@ -84,7 +81,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://gigplay.herokuapp.com/">GigPlay</a></h3>
+					<h3 className="result-item-header"><a href="https://gigplay.herokuapp.com/">GigPlay</a></h3>
 					<p className="result-item-url">https://gigplay.herokuapp.com/</p>
 					<p className="result-item-description">
 						Find concerts in your area based on the songs you listen to most. 
@@ -94,7 +91,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://attorney-gap.herokuapp.com/">Attorney Gap</a></h3>
+					<h3 className="result-item-header"><a href="https://attorney-gap.herokuapp.com/">Attorney Gap</a></h3>
 					<p className="result-item-url">https://attorney-gap.herokuapp.com/</p>
 					<p className="result-item-description">
 						Connecting attorney's to open appearance requests in their area ...
@@ -104,7 +101,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://campaign-donors.herokuapp.com/">Campaign Donor Data</a></h3>
+					<h3 className="result-item-header"><a href="https://campaign-donors.herokuapp.com/">Campaign Donor Data</a></h3>
 					<p className="result-item-url">https://campaign-donors.herokuapp.com/</p>
 					<p className="result-item-description">
 						Discover who supports candidates and causes in your area. Type a 
@@ -113,7 +110,7 @@ const ResultMain = () => {
 				</div>
 
 				<div className="result-item">
-					<h3><a href="https://www.instagram.com/tcookson0805/">Tyler Cookson (@tcookson0805) • Instagram photos and videos</a></h3>
+					<h3 className="result-item-header"><a href="https://www.instagram.com/tcookson0805/">Tyler Cookson (@tcookson0805) • Instagram photos and videos</a></h3>
 					<p className="result-item-url">https://www.instagram.com/tcookson0805/</p>
 					<p className="result-item-description">
 						93 Followers, 164 Following, 108 Posts - See Instagram photos and videos 
